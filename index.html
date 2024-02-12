@@ -103,19 +103,42 @@
               </div>
             </div>
           </div>
-          <!-- TRIANGLE CARD -->
+          <!-- PARALALLOGRAM CARD -->
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                class="p-4"
+                src="images/parallelogram.png"
+                alt="parallelogram"
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 class="card-title">Paralallogram!</h2>
+              <p>Area (A): b X h</p>
+              <div class="flex">
+                <input
+                  class="w-24 text-2xl p-2 rounded-sm"
+                  id="rectangle-width"
+                  type="text"
+                  placeholder="w"
+                />
+                <span class="mr-2 ml-2">cm</span>
+                <input
+                  class="w-24 text-2xl p-2 rounded-sm"
+                  id="rectangle-length"
+                  placeholder="l"
+                  type="text"
+                />
+                <span class="ml-2">cm</span>
+              </div>
+              <div>
+                <p>
+                  Area: <span id="rectangle-area"></span>
+                  <span>cm<sup>2</sup></span>
+                </p>
+              </div>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn w-full btn-primary">Calculate</button>
               </div>
             </div>
           </div>
@@ -145,5 +168,6 @@
 
     <script src="scripts/triangleCalculate.js"></script>
     <script src="scripts/rectangleCalculate.js"></script>
+    <script src="scripts/commonFunction.js"></script>
   </body>
 </html>
