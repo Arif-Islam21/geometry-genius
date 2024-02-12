@@ -5,8 +5,15 @@ document
     const rectangleWidthInput = document.getElementById("rectangle-width");
     const rectangleWidthText = rectangleWidthInput.value;
     const width = parseFloat(rectangleWidthText);
-    console.log(width);
+    // console.log(width);
     // GET LENGTH OF THE RECTANGLE
     const rectLengthInput = document.getElementById("rectangle-length");
-    console.log(rectLengthInput);
+    const rectangleText = rectLengthInput.value;
+    const length = parseFloat(rectangleText);
+    // console.log(length);
+
+    const area = length * width;
+
+    const areaValue = document.getElementById("rectangle-area");
+    areaValue.innerText = area;
   });
