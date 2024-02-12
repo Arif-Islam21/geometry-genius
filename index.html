@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
     <header></header>
     <main>
       <!-- MAIN CONTENT CONTAINER -->
-      <section class="flex flex-col md:flex-row">
+      <section class="flex flex-col m-4 md:flex-row">
         <!-- SHAPE CARD CONTAINER -->
         <div
           class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
@@ -31,15 +31,17 @@
               <h2 class="card-title">Triangle!</h2>
               <p>Area (A) = 0.5 X b X h</p>
 
-              <div class="flex mr-4 ml-2">
+              <div class="flex gap-2 mr-4 ml-2">
                 <input
-                  class="w-24 text-2xl p-2 rounded-sm bg-gray-100 text-white"
+                  id="triangle-base"
+                  class="w-24 text-2xl p-2 rounded-sm bg-gray-100"
                   type="text"
                   placeholder="b"
                 />
                 <span>cm</span>
                 <input
-                  class="w-24 text-2xl p-2 rounded-sm bg-gray-100 text-white"
+                  id="triangle-height"
+                  class="w-24 text-2xl p-2 rounded-sm bg-gray-100"
                   type="text"
                   placeholder="b"
                 />
@@ -103,7 +105,7 @@
           </div>
         </div>
         <!-- AREA CALCUTION CONTAINER -->
-        <div class="w-96 border-2 border-gray-500 rounded-md">
+        <div class="w-80 ml-4 border-2 border-gray-500 rounded-md">
           <h3 class="text-3xl text-center p-4">Area Calculation</h3>
         </div>
       </section>
