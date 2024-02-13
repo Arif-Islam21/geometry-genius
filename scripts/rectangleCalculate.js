@@ -43,3 +43,6 @@ document.getElementById("ellipse-btn").addEventListener("click", function () {
   const area = Math.PI * majorRadius * minorRadius;
   setAreaText("ellipse-area", area);
 });
+
+// SET BACKGROUND COLOR DYNAMICLY
+// SET THE AREA VALUE TO THE AREA DIV SECTION
