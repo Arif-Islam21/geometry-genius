@@ -29,3 +29,9 @@ document.getElementById("rhombus-btn").addEventListener("click", function () {
 });
 
 // FOR PENTAGON
+document.getElementById("pentagon-btn").addEventListener("click", function () {
+  const perimiter = input("pentagon-perimiter");
+  const length = input("pentagon-length");
+  const area = 0.5 * perimiter * length;
+  setAreaText("pentagon-area", area);
+});
