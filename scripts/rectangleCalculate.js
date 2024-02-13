@@ -24,6 +24,6 @@ document
 document.getElementById("rhombus-btn").addEventListener("click", function () {
   const width = input("rhombus-width");
   const length = input("rhombus-length");
-  const area = width * length;
-  setAreaText();
+  const area = 0.5 * width * length;
+  setAreaText("rhombus-area", area);
 });
