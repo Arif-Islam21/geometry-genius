@@ -27,3 +27,5 @@ document.getElementById("rhombus-btn").addEventListener("click", function () {
   const area = 0.5 * width * length;
   setAreaText("rhombus-area", area);
 });
+
+// FOR PENTAGON
