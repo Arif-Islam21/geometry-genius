@@ -6,3 +6,7 @@ function input(id) {
 }
 
 // getting the common way
+function setAreaText(id, areaValue) {
+  const areaValueText = document.getElementById(id);
+  areaValueText.innerText = areaValue;
+}

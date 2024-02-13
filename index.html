@@ -118,14 +118,14 @@
               <div class="flex">
                 <input
                   class="w-24 text-2xl p-2 rounded-sm"
-                  id="rectangle-width"
+                  id="parallelogram-width"
                   type="text"
                   placeholder="w"
                 />
                 <span class="mr-2 ml-2">cm</span>
                 <input
                   class="w-24 text-2xl p-2 rounded-sm"
-                  id="rectangle-length"
+                  id="parallelogram-length"
                   placeholder="l"
                   type="text"
                 />
@@ -133,28 +133,51 @@
               </div>
               <div>
                 <p>
-                  Area: <span id="rectangle-area"></span>
+                  Area: <span id="parallelogram-area"></span>
                   <span>cm<sup>2</sup></span>
                 </p>
               </div>
               <div class="card-actions justify-end">
-                <button class="btn w-full btn-primary">Calculate</button>
+                <button id="parallelogram-btn" class="btn w-full btn-primary">
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
-          <!-- TRIANGLE CARD -->
+          <!-- ROMBOS CARD -->
           <div class="card bg-base-100 shadow-xl">
             <figure>
-              <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-              />
+              <img class="p-3" src="images/rhombus.png" alt="rhombus" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 class="card-title">Rhombus!</h2>
+              <p>Area(A) : 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
+              <div class="flex">
+                <input
+                  class="w-24 text-2xl p-2 rounded-sm"
+                  id="rhombus-width"
+                  type="text"
+                  placeholder="w"
+                />
+                <span class="mr-2 ml-2">cm</span>
+                <input
+                  class="w-24 text-2xl p-2 rounded-sm"
+                  id="rhombus-length"
+                  placeholder="l"
+                  type="text"
+                />
+                <span class="ml-2">cm</span>
+              </div>
+              <div>
+                <p>
+                  Area: <span id="rhombus-area"></span>
+                  <span>cm<sup>2</sup></span>
+                </p>
+              </div>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+                <button id="rhombus-btn" class="btn w-full btn-primary">
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>
