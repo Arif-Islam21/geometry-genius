@@ -218,6 +218,43 @@
               </div>
             </div>
           </div>
+          <!-- ELLIPSE CARD -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img class="p-3" src="images/ellipse.png" alt="ellipse" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">ellipse!</h2>
+              <p>Area(A) : π X a X b</p>
+              <div class="flex">
+                <input
+                  class="w-24 text-2xl p-2 rounded-sm"
+                  id="ellipse-major"
+                  type="text"
+                  placeholder="major"
+                />
+                <span class="mr-2 ml-2">cm</span>
+                <input
+                  class="w-24 text-2xl p-2 rounded-sm"
+                  id="ellipse-minor"
+                  placeholder="minor"
+                  type="text"
+                />
+                <span class="ml-2">cm</span>
+              </div>
+              <div>
+                <p>
+                  Area: <span id="ellipse-area"></span>
+                  <span>cm<sup>2</sup></span>
+                </p>
+              </div>
+              <div class="card-actions justify-end">
+                <button id="ellipse-btn" class="btn w-full btn-primary">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- AREA CALCUTION CONTAINER -->
         <div class="w-80 ml-4 border-2 border-gray-500 rounded-md">

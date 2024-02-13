@@ -35,3 +35,11 @@ document.getElementById("pentagon-btn").addEventListener("click", function () {
   const area = 0.5 * perimiter * length;
   setAreaText("pentagon-area", area);
 });
+
+// FOR ELLIPSE
+document.getElementById("ellipse-btn").addEventListener("click", function () {
+  const majorRadius = input("ellipse-major");
+  const minorRadius = input("ellipse-minor");
+  const area = Math.PI * majorRadius * minorRadius;
+  setAreaText("ellipse-area", area);
+});
